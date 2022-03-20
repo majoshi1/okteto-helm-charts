@@ -20,6 +20,15 @@ This Helm repository contains the default Helm charts for the Okteto Cloud defau
 - [Tensorflow-Notebook](tensorflow-notebook/README.md)
 - [Terminal](terminal/README.md)
 
+# Deploy
+From root folder, run:
+`helm install <chart name> <folder>`
+e.g.
+`$ helm install tensorflow tensorflow-notebook`
+
+Ref: https://dev.to/okteto/developing-and-deploying-a-helm-chart-application-in-okteto-418c
+
+
 # Contributor Guide
 
 We welcome contributions! Are we missing your favorite Cloud Native App? Want to upgrade an existing one?
